@@ -13,11 +13,11 @@ example of how to use k6 load testing framework & execute tests as part of your 
 
 Introduction
 ------------
-This project is made for anyone who is looking for a starting point for writing performance tests using k6 and JavaScript.
+This project is made for anyone who is looking for a starting point for writing performance tests using k6. This solution also executes performance test as part of ci pipeline.
 
 For more information regarding k6 please visit: https://www.k6.io
 
-Project Packages
+Project structure
 -----
 * examples:
 Contains test example written in JS.
@@ -29,6 +29,7 @@ These are the steps to set-up k6.
 
     - brew tap loadimpact/k6
     - brew install k6
+
 
 Test api's
 -----
