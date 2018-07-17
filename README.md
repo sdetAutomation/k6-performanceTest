@@ -8,7 +8,7 @@
 ```
 
 # k6-performanceTest
-example of how to use k6 load testing framework
+example of how to use k6 load testing framework & execute tests as part of your ci pipeline.
 
 
 Introduction
