@@ -1,6 +1,7 @@
 language: java
 sudo: false
 script:
+- brew update
 - brew tap loadimpact/k6
 - brew install k6
 - cd examples 
