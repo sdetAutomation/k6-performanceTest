@@ -1,12 +1,10 @@
+os: osx
 before_install:
-  - brew update # see note below
-  - brew install beanstalk
+- brew tap loadimpact/k6
+- brew install k6
 
 language: java
 sudo: false
 script:
-- brew update
-- brew tap loadimpact/k6
-- brew install k6
 - cd examples 
 - k6 run jsonplaceholder_example.js
