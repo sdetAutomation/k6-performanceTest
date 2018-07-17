@@ -1,13 +1,7 @@
-sudo: required
-
-language: ruby
-
-services:
-  - docker
-
-before_install:
-- docker pull loadimpact/k6
-
+language: java
+sudo: false
 script:
+- brew tap loadimpact/k6
+- brew install k6
 - cd examples 
 - k6 run jsonplaceholder_example.js
