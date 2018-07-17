@@ -8,3 +8,4 @@ sudo: false
 script:
 - cd examples 
 - k6 run jsonplaceholder_example.js
+- k6 run groupkt_example.js
