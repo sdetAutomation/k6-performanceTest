@@ -1,0 +1,11 @@
+os: osx
+before_install:
+- brew tap loadimpact/k6
+- brew install k6
+
+language: java
+sudo: false
+script:
+- cd examples 
+- k6 run jsonplaceholder_example.js
+- k6 run groupkt_example.js
