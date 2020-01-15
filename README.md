@@ -10,6 +10,7 @@
 # k6-performanceTest
 example of how to use k6 load testing framework & execute tests as part of your ci pipeline.
 
+[![Build Status](https://travis-ci.org/sdetAutomation/k6-performanceTest.svg?branch=master)](https://travis-ci.org/sdetAutomation/k6-performanceTest)
 
 Introduction
 ------------
